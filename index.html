@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+   
+    <body>
+        <header class="logo">
+            <img src="./logo e imagenes alura/alura logo1.png" alt="Logo de Alura">
+        </header>
+        <main class="cuerpo">
+            <section>
+                <textarea class="input-texto" cols="40" rows="12"
+                    placeholder="Ingrese el texto aqui"></textarea>
+                
+                    <div class="botones">
+                        <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+            </section>
+ 
+            <section>
+                <textarea class="mensaje" cols="20" rows="12"></textarea>
+
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

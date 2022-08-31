@@ -1,0 +1,83 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #F637EC;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.mensaje {
+    position: relative;
+    margin-left: 80px;
+    background-image: url("./logo e imagenes alura/muneco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 200px;
+    border-radius: 10px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.copiar {
+    font-size: 20px;
+    display: flex;
+    position: center;
+    margin-top: 28px;
+    margin-left: 160px;
+    background-color: #1CD6CE;
+    
+}
+
+.botones {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    width: 120px;   
+    background-color: #3330E4;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.desencriptar {
+    width: 120px;
+    margin-left: 30px;
+    background-color: #FAEA48;
+    font-weight: bold;
+}
+
+.informacion {
+    font-size: 15px;
+}
+
+.mensaje {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
